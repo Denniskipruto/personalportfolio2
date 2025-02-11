@@ -102,12 +102,3 @@ img {
         display: flex;
     }
 }
-@media (max-width: 480px) {
-    h1 {
-        font-size: 7vw;
-    }
-    p {
-        font-size: 0.9rem;
-    }
-}
-
