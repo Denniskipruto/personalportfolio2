@@ -67,6 +67,10 @@ h1 {
     font-size: 3rem;
     text-align: center;
 }
+.navbar{
+    background-color: black;
+    display: flex;
+}
 
 
 
