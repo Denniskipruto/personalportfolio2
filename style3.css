@@ -110,3 +110,63 @@ ul{
     color: white;
     text-decoration: underline;
  }
+body {
+    font-size: 18px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 6vw; 
+    }
+    p {
+        font-size: 1rem;
+        padding: 10px;
+    }
+    section {
+        padding: 30px 5%;
+    }
+    
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        background: black;
+        width: 100%;
+        text-align: center;
+    }
+    nav ul.active {
+        display: flex;
+    }
+}
+@media (max-width: 480px) {
+    h1 {
+        font-size: 7vw;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}
+
+
