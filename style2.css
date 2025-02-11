@@ -41,6 +41,8 @@ ul{
 }
 
 .Welcome{
+
+    font-size: larger;
     padding: 10px;
     margin: 10px;
     
@@ -51,13 +53,12 @@ ul{
 }
 body{
     color: black;
-    background-image: url('brandi-redd-aJTiW00qqtI-unsplash.jpg');
+     background-image: url('brandi-redd-aJTiW00qqtI-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-body {
-    font-size: 16px;
+}body {
+    font-size: 18px;
 }
 
 
@@ -67,24 +68,9 @@ img {
 }
 
 
-
-
-
-    section {
-        padding: 30px 5%;
-    }
-    
-    nav ul {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 50px;
-        right: 0;
-        background: black;
-        width: 100%;
-        text-align: center;
-    }
-    nav ul.active {
-        display: flex;
-    }
+h1 {
+    font-size: 3rem;
+    text-align: center;
 }
+
+
