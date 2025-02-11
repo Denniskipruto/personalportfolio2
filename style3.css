@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.heading{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    color: white ;
+    max-height: 60px;
+    margin: 10px;
+}
+.navbar{
+    background-color: black;
+    display: flex;
+}
+a{
+    color: white;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: larger;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+a:hover{
+    color: goldenrod;
+    box-shadow: 0px 1px 0px aqua;
+   
+}
+ul{
+    list-style-type: none;
+}
+.kali {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr ;
+ gap: 1rem;}
+ .item {
+ width: 30vw;
+ height: 65vh;
+ margin: 10px;
+ background-color: rgba(0, 0, 0, 0.693);
+ border: 0.1rem solid whitesmoke;
+ border-radius: 2rem;
+ display: inline-flex;
+ justify-content: center;
+ color: white;
+ 
+
+ }
+ img{
+    border: 0.1rem solid hsla(0, 0%, 0%, 0.374);
+    border-radius: 2rem;
+    margin-top: 30px;
+    
+ }
+ body{
+    color: white;
+    
+    background-image: url(../images/markus-spiske-iar-afB0QQw-unsplash.jpg);
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+
+ }
+ .projects{
+    margin: 10px;
+
+ }
+ .contacts{
+    display: flex;
+    justify-content: space-around;
+ }
+ .conclusion{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20%;
+    color: white;
+    font-size: larger;
+    padding: 20px;
+  
+
+ }
+ .kali a{
+    padding: 10px;
+    font-size: larger;
+    color: antiquewhite;
+    transition: all 0.5s ease-in-out;
+    display: block;
+    height: 10%;
+    text-decoration: underline;
+    text-decoration: wavy;
+ }
+.kali a:hover {
+    color: chartreuse;
+    box-shadow:  0px 5px 15px cornsilk;
+ }
+ .contacts a {
+    color: white;
+    text-decoration: underline;
+ }
